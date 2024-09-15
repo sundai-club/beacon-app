@@ -62,10 +62,11 @@
     <!-- Call to Action Section -->
     <section class="cta" id="cta">
         <div class="container">
-            <h2>Join the Movement to Reconnect</h2>
-            <p>Be the first to experience Beacon when we launch.</p>
+            <h1>Beacon: Reignite and Strengthen Your Connections</h1>
+            <p>Turn on your Beacon and reconnect with friends and colleagues.</p>
+            <p>Join a community focused on meaningful interactions, not just connections.</p>
             <!-- Updated Call to Action Button -->
-            <a href="https://forms.gle/r478p15hmMDdzztE7" target="_blank" class="cta-button">Register Your Interest</a>
+            <a href="https://forms.gle/r478p15hmMDdzztE7" target="_blank" class="cta-button">Get Early Access</a>
             <p class="privacy">We respect your privacy and won't share your information.</p>
         </div>
     </section>
@@ -83,7 +84,10 @@
                 <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
             </div>
-            <p>© 2024 Beacon. All rights reserved.</p>
+            <p><span id="year"></span>© 2024 Beacon. All rights reserved.</p>
+            <script>
+                document.getElementById('year').textContent = new Date().getFullYear();
+            </script>
         </div>
     </footer>
 
